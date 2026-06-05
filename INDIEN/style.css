@@ -1,0 +1,194 @@
+body {
+    background-color: rgb(182, 201, 181);
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.Überschrift {
+    text-align: center;
+       font-size: 24px;
+    margin-top: 20px;
+}
+
+.mitte {
+    text-align: center;
+    font-size: 39px;
+}
+
+.Startbild {
+    width: 100%;     /* oder 1800px oder 90% */
+    display: block;
+    margin: 0 auto;
+    height: auto;
+
+}
+
+
+.links {
+    width: 300px;      /* Bildgröße */
+    float: left;       /* Bild nach links + Text daneben */
+    margin-right: 20px; /* Abstand zwischen Bild und Text */
+    margin-bottom: 20px; /* Abstand nach unten */
+}
+.clear {
+    clear: both;
+}
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px;
+}
+.mitte td {
+    text-align: center;   /* Text horizontal zentrieren */
+    vertical-align: middle; /* Text vertikal zentrieren */
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.tabelleMitte {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    background-color:rgb(182, 201, 181) ;
+}
+.tabelleMitte td {
+    text-align: center;   /* Text horizontal zentriert */
+    font-size: 24px;      /* falls du größere Schrift willst */
+    padding: 10px;
+}
+
+
+
+
+.Name {
+  text-align: center;
+    top: 10px;
+    left: 10px;
+    font-size:20px;
+    font-weight: bold;
+}
+
+
+.seite {
+    display: flex;
+    min-height: 100vh;
+}
+
+.links {
+    width: 65%;
+    padding: 20px;
+    position: relative; /* wichtig für den Strich */
+    padding-right: 50px;
+}
+
+.links::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0; /* Strich geht nur bis zum Ende des Textes */
+    width: 2px;
+    background-color: black;
+
+    /* HIER stellst du ein, wie weit rechts der Strich sein soll */
+    right: 100px; 
+}
+
+.rechts {
+    width: 35%;
+    padding: 20px;
+}
+
+
+.Kapitel3 {
+    text-align: center; 
+    width: 600px; 
+    margin: auto;
+
+}
+
+
+
+
+.Flagge {
+    width: 100%; 
+    text-align: center;
+}
+
+.Box {
+    width: 80%; 
+    margin: 0 auto; 
+    background-color: white; 
+    border: 1px solid black; 
+    padding: 20px;
+}
+
+.Kasten {
+     width: 300px;
+    display: block;
+    margin: 0 auto;
+    height: auto;
+}
+ 
+.Abstände {
+    margin-bottom: 30px;
+
+}
+
+.Kastensystem {
+      margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    background-color:rgb(182, 201, 181);
+    font-size: 20px;
+}
+
+.Weltkarte img {
+    max-width: 250px;
+    width:100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+
+}
+.Weltkarte {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border-collapse: collapse;
+}
+
+.Weltkarte td {
+    border: none;
+}
+
+.InfosIndien {
+
+     margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    background-color:rgb(182, 201, 181) ;
+    font-size: 20px;
+
+}
+
+
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(182, 201, 181);
+    color: black;
+    text-decoration: none;
+    border-radius: 0;
+    margin: 10px;
+    font-size: 18px;
+}
