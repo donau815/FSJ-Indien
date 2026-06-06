@@ -21,9 +21,10 @@ h1 {
 }
 
 .Startbild {
-    width: 300px;     
-    display: block;
-
+    width: 100%; /* oder 1800px oder 90% */ 
+    display: block; 
+    margin: 0 auto; 
+    height: auto;
 }
 
 
