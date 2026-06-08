@@ -234,11 +234,8 @@ a {
 
 }
 
-.Box table,
-.Box td,
-.Box tr {
+.Box table {
     margin: auto;
-    border: none;
 }
 
 
