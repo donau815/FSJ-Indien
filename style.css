@@ -234,11 +234,14 @@ a {
 
 }
 
-.Box table,
-.Box td,
-.Box tr {
-    margin: 0 auto;
+.Quellen table,
+.Quellen td,
+.Quellen tr {
+    width: 80%; 
+    margin: 0 auto; 
+    background-color: white; 
     border: none;
-    
+    padding: 20px;
 }
+
 
